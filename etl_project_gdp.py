@@ -72,9 +72,6 @@ def log_progress(message):
     with open("./etl_project_log.txt","a") as f: 
         f.write(timestamp + ' : ' + message + '\n')    
 
-''' Here, you define the required entities and call the relevant 
-functions in the correct order to complete the project. Note that this
-portion is not inside any function.'''
 
 url = 'https://web.archive.org/web/20230902185326/https://en.wikipedia.org/wiki/List_of_countries_by_GDP_%28nominal%29'
 table_attribs = ["Country", "GDP_USD_millions"]
